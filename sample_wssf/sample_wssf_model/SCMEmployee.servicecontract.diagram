@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<serviceContractDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SCMEmployee">
+  <serviceContractModelMoniker Id="c30e589d-07e1-49ef-81f7-86ae0fcfbaa1" />
+  <nestedChildShapes>
+    <serviceShape Id="b39170b8-b864-4d18-84cf-ce68aad95a8c" isExpanded="false" absoluteBounds="0.5, 0.5, 1.5, 0.4">
+      <serviceMoniker Id="9e7b4aea-25db-4177-b886-46a33cb69ac7" />
+    </serviceShape>
+    <serviceContractShape Id="9ba90c3a-907e-4f52-8d7c-62d079b0bd55" absoluteBounds="0.5, 1.375, 2.125, 0.375">
+      <serviceContractMoniker name="/c30e589d-07e1-49ef-81f7-86ae0fcfbaa1/ServiceContractEmployee" />
+    </serviceContractShape>
+    <messageShape Id="35872ab2-2187-4faf-830d-3e0aa0a55901" absoluteBounds="3.75, 2.25, 2.5, 0.88180582682291675">
+      <messageMoniker Id="ef80ed2d-cce3-41f3-834e-3757eead3216" />
+      <nestedChildShapes>
+        <elementListCompartment Id="129544d5-7df8-431d-82e2-b24a85e11c35" absoluteBounds="3.7650000000000006, 2.66, 2.4699999999999998, 0.37180582682291663" name="Parts" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </messageShape>
+    <operationShape Id="9a3f5f14-5b83-426c-a7aa-bf87d59c3e5d" absoluteBounds="0.5, 2.25, 2.25, 0.71745849609375023">
+      <operationMoniker Id="9ee2249a-229c-46ee-a6dd-486ff2619c23" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff371b88-3361-4c97-858a-fa41c16a5126" absoluteBounds="0.515, 2.66, 2.2199999999999998, 0.20745849609375" name="Faults" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </operationShape>
+    <serviceConnector edgePoints="[(1.25 : 0.9); (1.25 : 1.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="a2a99593-2a34-4d79-9c31-8759acdcf4e1">
+      <nodes>
+        <serviceShapeMoniker Id="b39170b8-b864-4d18-84cf-ce68aad95a8c" />
+        <serviceContractShapeMoniker Id="9ba90c3a-907e-4f52-8d7c-62d079b0bd55" />
+      </nodes>
+    </serviceConnector>
+    <operationConnector edgePoints="[(1.5625 : 1.75); (1.5625 : 2.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="096ae312-0e53-4109-8819-6eefa07035a1">
+      <nodes>
+        <serviceContractShapeMoniker Id="9ba90c3a-907e-4f52-8d7c-62d079b0bd55" />
+        <operationShapeMoniker Id="9a3f5f14-5b83-426c-a7aa-bf87d59c3e5d" />
+      </nodes>
+    </operationConnector>
+    <messageOperationConnector edgePoints="[(2.75 : 2.60872924804687); (3.75 : 2.60872924804687)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="02d27431-b5de-4fed-80f3-ccbd93466f72">
+      <nodes>
+        <operationShapeMoniker Id="9a3f5f14-5b83-426c-a7aa-bf87d59c3e5d" />
+        <messageShapeMoniker Id="35872ab2-2187-4faf-830d-3e0aa0a55901" />
+      </nodes>
+    </messageOperationConnector>
+  </nestedChildShapes>
+</serviceContractDiagram>

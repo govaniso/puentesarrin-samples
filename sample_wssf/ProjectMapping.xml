@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ProjectMappingInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FileName="ProjectMapping.xml" xmlns="http://schemas.microsoft.com/pag/project-mapping">
+  <ProjectMappingTables>
+    <ProjectMappingTable Name="sample_wssf">
+      <ProjectMappings>
+        <ProjectMapping ProjectId="958876a3-4b76-4396-b410-e649f03944bb" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.BusinessEntities">
+          <Roles>
+            <Role Name="BusinessEntityRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="5bcda086-aeb4-4c81-86e7-752273569fe1" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.BusinessLogic">
+          <Roles>
+            <Role Name="BusinessLogicRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="97560824-5025-4df4-92e7-a866803a91d6" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.DataAccess">
+          <Roles />
+        </ProjectMapping>
+        <ProjectMapping ProjectId="3160ff93-e6d4-4179-b80a-389bed60adde" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.DataContracts">
+          <Roles>
+            <Role Name="DataContractRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="528ba6e3-0aa6-4a54-93bf-07b4c4d93cd1" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.FaultContracts">
+          <Roles>
+            <Role Name="FaultContractRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="8aded3be-077c-4536-afdb-5e85261bd0ce" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.MessageContracts">
+          <Roles>
+            <Role Name="MessageContractRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="ca8ff930-7f60-43b3-b264-da342dd2a81d" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.ServiceImplementation">
+          <Roles>
+            <Role Name="ServiceRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="3da01de4-f211-42bc-b16c-1456c33eb565" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.ServiceContracts">
+          <Roles>
+            <Role Name="ServiceContractRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="f994d47d-be19-4b5e-9011-c7500d384ccc" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.Host">
+          <Roles>
+            <Role Name="HostRole" />
+          </Roles>
+        </ProjectMapping>
+        <ProjectMapping ProjectId="f8d50a66-48e9-4870-85a9-b5b9aece2856" ProjectPath="\GeneratedCode" ProjectName="sample_wssf.Client">
+          <Roles>
+            <Role Name="ClientRole" />
+          </Roles>
+        </ProjectMapping>
+      </ProjectMappings>
+    </ProjectMappingTable>
+  </ProjectMappingTables>
+</ProjectMappingInformation>

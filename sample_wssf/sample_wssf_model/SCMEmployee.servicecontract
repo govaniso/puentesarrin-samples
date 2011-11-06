@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<serviceContractModel dslVersion="1.0.0.0" Id="c30e589d-07e1-49ef-81f7-86ae0fcfbaa1" implementationTechnology="{3d062fd1-5877-4760-ae82-d8a31af845b5}|WCF|WCF Extension" projectMappingTable="sample_wssf" namespace="http://puentesarr.in" serializerType="DataContractSerializer" xmlns="http://schemas.microsoft.com/dsltools/ServiceContractDsl">
+  <serviceContracts>
+    <serviceContract name="ServiceContractEmployee" namespace="http://puentesarr.in" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;WCFServiceContract&quot;&gt;&#xD;&#xA;    &lt;ProtectionLevel&gt;None&lt;/ProtectionLevel&gt;&#xD;&#xA;    &lt;SessionMode&gt;Allowed&lt;/SessionMode&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;">
+      <operations>
+        <operationMoniker Id="9ee2249a-229c-46ee-a6dd-486ff2619c23" />
+      </operations>
+    </serviceContract>
+  </serviceContracts>
+  <operations>
+    <operation Id="9ee2249a-229c-46ee-a6dd-486ff2619c23" name="SelectAllEmployees" action="SelectAllEmployees" isOneWay="false" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;WCFOperationContract&quot;&gt;&#xD;&#xA;    &lt;ProtectionLevel&gt;None&lt;/ProtectionLevel&gt;&#xD;&#xA;    &lt;IsInitiating&gt;true&lt;/IsInitiating&gt;&#xD;&#xA;    &lt;IsTerminating&gt;false&lt;/IsTerminating&gt;&#xD;&#xA;    &lt;AsyncPattern&gt;false&lt;/AsyncPattern&gt;&#xD;&#xA;    &lt;ReplyAction /&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;">
+      <response>
+        <messageMoniker Id="ef80ed2d-cce3-41f3-834e-3757eead3216" />
+      </response>
+    </operation>
+  </operations>
+  <services>
+    <service Id="9e7b4aea-25db-4177-b886-46a33cb69ac7" name="ServiceEmployee" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;WCFService&quot;&gt;&#xD;&#xA;    &lt;ConcurrencyMode&gt;Single&lt;/ConcurrencyMode&gt;&#xD;&#xA;    &lt;InstanceContextMode&gt;PerSession&lt;/InstanceContextMode&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" namespace="http://puentesarr.in">
+      <serviceContract>
+        <serviceContractMoniker name="/c30e589d-07e1-49ef-81f7-86ae0fcfbaa1/ServiceContractEmployee" />
+      </serviceContract>
+    </service>
+  </services>
+  <messages>
+    <message Id="ef80ed2d-cce3-41f3-834e-3757eead3216" name="selectAllEmployeesResponse" namespace="http://puentesarr.in" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;WCFMessageContract&quot;&gt;&#xD;&#xA;    &lt;IsWrapped&gt;false&lt;/IsWrapped&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;">
+      <messageParts>
+        <dataContractMessagePart name="ListEmployees" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;WCFDataContractMessagePart&quot; /&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" type="mel://Microsoft.Practices.ServiceFactory.DataContracts\DataContractBase\ListDCEmployee@sample_wssf_model\DCMEmployee" />
+      </messageParts>
+    </message>
+  </messages>
+</serviceContractModel>

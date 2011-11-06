@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://puentesarr.in" elementFormDefault="qualified" targetNamespace="http://puentesarr.in" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ListDCEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ListDCEmployee" nillable="true" type="tns:DCEmployee" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ListDCEmployee" nillable="true" type="tns:ListDCEmployee" />
+  <xs:complexType name="DCEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EmployeeID" type="xs:int" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DCEmployee" nillable="true" type="tns:DCEmployee" />
+  <xs:element name="ListEmployees" nillable="true" type="tns:ListDCEmployee" />
+</xs:schema>
