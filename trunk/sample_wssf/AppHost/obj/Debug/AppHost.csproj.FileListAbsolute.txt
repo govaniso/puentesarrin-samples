@@ -1,0 +1,17 @@
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\AppHost.exe.config
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\AppHost.exe
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\AppHost.pdb
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.DataContracts.DataContracts.dll
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.FaultContracts.FaultContracts.dll
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.MessageContracts.MessageContracts.dll
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.ServiceContracts.ServiceContracts.dll
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.ServiceImplementation.ServiceImplementation.dll
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.DataContracts.DataContracts.pdb
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.MessageContracts.MessageContracts.pdb
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.ServiceContracts.ServiceContracts.pdb
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.ServiceImplementation.ServiceImplementation.pdb
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.FaultContracts.FaultContracts.pdb
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\obj\Debug\ResolveAssemblyReference.cache
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\obj\Debug\AppHost.exe
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\obj\Debug\AppHost.pdb
+D:\JorgePuente\sample_wssf\sample_wssf\AppHost\bin\Debug\sample_wssf.AppHost.exe.config

@@ -1,0 +1,91 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA8FF930-7F60-43B3-B264-DA342DD2A81D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sample_wssf.ServiceImplementation</RootNamespace>
+    <AssemblyName>sample_wssf.ServiceImplementation.ServiceImplementation</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GeneratedCode\ServiceEmployee.cs" />
+    <Compile Include="PartialClasses\SIPCServiceEmployee.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business Logic\sample_wssf.BusinessEntities\sample_wssf.BusinessEntities.csproj">
+      <Project>{958876A3-4B76-4396-B410-E649F03944BB}</Project>
+      <Name>sample_wssf.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business Logic\sample_wssf.BusinessLogic\sample_wssf.BusinessLogic.csproj">
+      <Project>{5BCDA086-AEB4-4C81-86E7-752273569FE1}</Project>
+      <Name>sample_wssf.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf.DataContracts\sample_wssf.DataContracts.csproj">
+      <Project>{3160FF93-E6D4-4179-B80A-389BED60ADDE}</Project>
+      <Name>sample_wssf.DataContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf.FaultContracts\sample_wssf.FaultContracts.csproj">
+      <Project>{528BA6E3-0AA6-4A54-93BF-07B4C4D93CD1}</Project>
+      <Name>sample_wssf.FaultContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf.MessageContracts\sample_wssf.MessageContracts.csproj">
+      <Project>{8ADED3BE-077C-4536-AFDB-5E85261BD0CE}</Project>
+      <Name>sample_wssf.MessageContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf.ServiceContracts\sample_wssf.ServiceContracts.csproj">
+      <Project>{3DA01DE4-F211-42BC-B16C-1456C33EB565}</Project>
+      <Name>sample_wssf.ServiceContracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Roles="ServiceRole" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69DA1AF3-3EC4-4A68-9D25-63A06C531BAC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sample_wssf.AppHost</RootNamespace>
+    <AssemblyName>sample_wssf.AppHost</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sample_wssf\Source\Service Interface\sample_wssf.DataContracts\sample_wssf.DataContracts.csproj">
+      <Project>{3160FF93-E6D4-4179-B80A-389BED60ADDE}</Project>
+      <Name>sample_wssf.DataContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf\Source\Service Interface\sample_wssf.FaultContracts\sample_wssf.FaultContracts.csproj">
+      <Project>{528BA6E3-0AA6-4A54-93BF-07B4C4D93CD1}</Project>
+      <Name>sample_wssf.FaultContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf\Source\Service Interface\sample_wssf.MessageContracts\sample_wssf.MessageContracts.csproj">
+      <Project>{8ADED3BE-077C-4536-AFDB-5E85261BD0CE}</Project>
+      <Name>sample_wssf.MessageContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf\Source\Service Interface\sample_wssf.ServiceContracts\sample_wssf.ServiceContracts.csproj">
+      <Project>{3DA01DE4-F211-42BC-B16C-1456C33EB565}</Project>
+      <Name>sample_wssf.ServiceContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sample_wssf\Source\Service Interface\sample_wssf.ServiceImplementation\sample_wssf.ServiceImplementation.csproj">
+      <Project>{CA8FF930-7F60-43B3-B264-DA342DD2A81D}</Project>
+      <Name>sample_wssf.ServiceImplementation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
