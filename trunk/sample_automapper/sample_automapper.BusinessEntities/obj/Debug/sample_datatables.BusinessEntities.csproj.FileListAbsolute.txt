@@ -1,0 +1,5 @@
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessEntities\bin\Debug\sample_datatables.BusinessEntities.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessEntities\bin\Debug\sample_datatables.BusinessEntities.pdb
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessEntities\obj\Debug\ResolveAssemblyReference.cache
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessEntities\obj\Debug\sample_datatables.BusinessEntities.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessEntities\obj\Debug\sample_datatables.BusinessEntities.pdb

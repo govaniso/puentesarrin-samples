@@ -1,0 +1,9 @@
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\bin\Debug\sample_datatables.BusinessLogic.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\bin\Debug\sample_datatables.BusinessLogic.pdb
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\bin\Debug\sample_datatables.BusinessEntities.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\bin\Debug\sample_datatables.DataAccess.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\bin\Debug\sample_datatables.DataAccess.pdb
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\bin\Debug\sample_datatables.BusinessEntities.pdb
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\obj\Debug\sample_datatables.BusinessLogic.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.BusinessLogic\obj\Debug\sample_datatables.BusinessLogic.pdb
