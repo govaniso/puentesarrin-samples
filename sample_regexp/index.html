@@ -1,0 +1,20 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function Match() {
+			if (document.getElementById('string').value.match(new RegExp(document.getElementById('pattern').value)) != null)
+				alert('Match!');
+			else
+				alert('No match!');
+			return false;
+		}
+	</script>
+</head>
+<body>
+<form method="POST" action="#">
+Pattern: <input type="text" id="pattern" value="\b[a-z]+\b" /><br />
+String: <input type="text" id="string" value="54" /><br />
+<input type="submit" onclick="return Match();" value="Match!">
+</form>
+</body>
+</html>

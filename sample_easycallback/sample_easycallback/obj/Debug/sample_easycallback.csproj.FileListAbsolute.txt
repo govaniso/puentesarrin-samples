@@ -1,0 +1,6 @@
+D:\Jorge\sample_easycallback\sample_easycallback\bin\sample_easycallback.dll
+D:\Jorge\sample_easycallback\sample_easycallback\bin\sample_easycallback.pdb
+D:\Jorge\sample_easycallback\sample_easycallback\bin\EasyCallback.dll
+D:\Jorge\sample_easycallback\sample_easycallback\obj\Debug\ResolveAssemblyReference.cache
+D:\Jorge\sample_easycallback\sample_easycallback\obj\Debug\sample_easycallback.dll
+D:\Jorge\sample_easycallback\sample_easycallback\obj\Debug\sample_easycallback.pdb

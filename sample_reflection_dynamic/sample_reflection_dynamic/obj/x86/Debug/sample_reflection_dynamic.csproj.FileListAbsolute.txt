@@ -1,0 +1,5 @@
+D:\Jorge\sample_reflection_dynamic\sample_reflection_dynamic\sample_reflection_dynamic\bin\Debug\sample_reflection_dynamic.exe
+D:\Jorge\sample_reflection_dynamic\sample_reflection_dynamic\sample_reflection_dynamic\bin\Debug\sample_reflection_dynamic.pdb
+D:\Jorge\sample_reflection_dynamic\sample_reflection_dynamic\sample_reflection_dynamic\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Jorge\sample_reflection_dynamic\sample_reflection_dynamic\sample_reflection_dynamic\obj\x86\Debug\sample_reflection_dynamic.exe
+D:\Jorge\sample_reflection_dynamic\sample_reflection_dynamic\sample_reflection_dynamic\obj\x86\Debug\sample_reflection_dynamic.pdb

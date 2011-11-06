@@ -1,0 +1,11 @@
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.dll
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.pdb
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.BusinessEntities.dll
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.BusinessLogic.dll
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.DataAccess.dll
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.BusinessEntities.pdb
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.BusinessLogic.pdb
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\bin\sample_datatables_.net.DataAccess.pdb
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\obj\Debug\ResolveAssemblyReference.cache
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\obj\Debug\sample_datatables_.net.dll
+D:\JorgePuente\sample_datatables_,net\sample_datatables_,net\obj\Debug\sample_datatables_.net.pdb

@@ -1,0 +1,7 @@
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.DataAccess\bin\Debug\sample_datatables.DataAccess.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.DataAccess\bin\Debug\sample_datatables.DataAccess.pdb
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.DataAccess\bin\Debug\sample_datatables.BusinessEntities.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.DataAccess\bin\Debug\sample_datatables.BusinessEntities.pdb
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.DataAccess\obj\Debug\sample_datatables.DataAccess.dll
+D:\JorgePuente\posts\sample_datatables_.net\sample_datatables.DataAccess\obj\Debug\sample_datatables.DataAccess.pdb

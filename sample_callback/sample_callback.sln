@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "E:\sample_callback\", "E:\sample_callback\", "{B3805D07-4F7D-4613-A5A7-E09B6793C5D4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/sample_callback"
+		Debug.AspNetCompiler.PhysicalPath = "E:\sample_callback\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\sample_callback\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/sample_callback"
+		Release.AspNetCompiler.PhysicalPath = "E:\sample_callback\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\sample_callback\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4812"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3805D07-4F7D-4613-A5A7-E09B6793C5D4}.Debug|.NET.ActiveCfg = Debug|.NET
+		{B3805D07-4F7D-4613-A5A7-E09B6793C5D4}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
