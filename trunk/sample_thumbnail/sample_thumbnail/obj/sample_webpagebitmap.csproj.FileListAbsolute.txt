@@ -1,0 +1,5 @@
+D:\Proyectos\puentesarr.in-samples\svn\sample_webpagebitmap\sample_webpagebitmap\sample_webpagebitmap\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\puentesarr.in-samples\svn\sample_webpagebitmap\sample_webpagebitmap\sample_webpagebitmap\bin\sample_webpagebitmap.dll
+D:\Proyectos\puentesarr.in-samples\svn\sample_webpagebitmap\sample_webpagebitmap\sample_webpagebitmap\bin\sample_webpagebitmap.pdb
+D:\Proyectos\puentesarr.in-samples\svn\sample_webpagebitmap\sample_webpagebitmap\sample_webpagebitmap\obj\Debug\sample_webpagebitmap.dll
+D:\Proyectos\puentesarr.in-samples\svn\sample_webpagebitmap\sample_webpagebitmap\sample_webpagebitmap\obj\Debug\sample_webpagebitmap.pdb
